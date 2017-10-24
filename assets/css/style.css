@@ -1,22 +1,98 @@
+/* Name and Nav section */
 .Top_Bar {
+    display: flex;
     background-color: white;
     width: 100%;
+    border-bottom-color: gray;
 }
 
-header {
-    background: skyblue;
+/* Navigation Bar */
+nav {
+    flex: 1
+}
+
+.Banner {
+    display: flex;
+    background-color: rgb(40, 155, 163);
     color: white;
     width: 400px;
     height: 90px;
-    font-size: 40px;
-    text-align: center;
-    white-space: nowrap;
 }
-.Nav_bar {
+
+header {
+    margin: auto;
+    font-size: 40px;
 }
 
 body {
-    background-size: 
+    background-image: url("../images/texture.png");
+    font-size: 18px;
+}
+
+.Middle_Content {
+    display: flex;
+    width: 960px;
+    margin: 50px 10%;
+}
+
+.Main_Section {
+    flex: 2;
+    width: 650px;
+    height: auto;
+    background: white;
+}
+
+#Profile_Pic {
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+}
+
+p{
+    margin: 20px;
+}
+
+.Connect_with_me {
+    color: rgb(40, 155, 163);
+    flex: 1;
+    margin-left: 40px;
+    width: 270px;
+    height: 180px;
+    background: white;
+  
+}
+
+h3 {
+
+    text-align: center;
+    margin: 20px;
+    border-bottom-style: solid;
+    border-bottom-color: gray;
+}
+
+.Connect_with_me ul {
+    display: flex;
+    padding: 0px;
+}
+
+.Icon {
+    width: 50px;
+    height: 50px;
+    margin: 20px;
+}
+
+li {
+    list-style-type: none;
+    flex: 1;
+}
+
+h2 {
+    color: rgb(40, 155, 163);
+    margin-left: 10px;
+    margin-right: 10px;
+    border-bottom-style: solid;
+    border-bottom-color: gray;
 }
 
 footer{
