@@ -170,7 +170,11 @@ footer {
 
 #Message_Input {
     height: 150px;
-    width: auto;
+    width: 100%;
+}
+
+#Message {
+
 }
 
 .Pics {
@@ -190,8 +194,10 @@ footer {
 
 .picLabel {
     position: absolute;
-    width: 100%;
-    bottom: 40px;
+    width: 90%;
+    height: 60px;
+    bottom: 30px;
+    left: 15px;
     text-align: center;
     color: #ffffff;
     background: #4aaaa5;
